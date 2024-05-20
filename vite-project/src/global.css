@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.imc-calculator h1 {
+    font-size: 40px;
+    color: #61dafb;
+}
+
+label {
+    margin-top: 30px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.containerAbout {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 980px;
+    width: 100%;
+    /* padding: 0 20px; */
+}
+
+.additional-info {
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-left: 20px; /* Define a margem esquerda */
+    margin-right: 20px; /* Define a margem direita */
+}
+
+.imc-container {
+    margin: 100px;
+}
+
+.input-group input {
+    width: 50%;
+}
+
+.input-group label{
+    font-weight: bold;
+    font-size: 20px ;
+    
+}
+.additional-info h2 {
+    font-size: 40px;
+}
+
+.additional-info p {
+    font-size: 20px;
+}
+
+.additional-info li {
+    font-size: 20px; 
+}
+
+body {
+    background-color: #282c34; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+}
+
+.imc-calculator {
+    background-color: #282c34; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+    border: none; /* Borda azul */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 9);
+}
+
+.additional-info {
+    background-color: #282c34; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+}
+
+.input-group label {
+    color: #61dafb ; /* Cor do texto branca para os rótulos */
+}
+
+.input-group input {
+    background-color: #fff; /* Cor de fundo azul claro para os inputs */
+    color: #282c34; /* Cor do texto preta */
+}
+
+.calculate-button {
+    background-color: #61dafb; /* Cor de fundo azul claro para o botão */
+    color: #282c34; /* Cor do texto preta */
+}
+
+.result {
+    color: #fff; /* Cor do texto azul claro para o resultado */
+}
+
+.additional-info h2 {
+    color: #61dafb; /* Cor do texto azul claro para os títulos h2 */
+}
+
+.additional-info p {
+    color: white; /* Cor do texto branca para os parágrafos */
+}
+
+.additional-info li {
+    color: white; /* Cor do texto branca para os itens da lista */
+}
+
+.blue-label {
+    color: #61dafb;
+}
